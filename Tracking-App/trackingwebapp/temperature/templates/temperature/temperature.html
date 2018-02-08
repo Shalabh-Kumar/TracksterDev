@@ -1,0 +1,9 @@
+{% extends "vehicleTracking/header.html" %}
+
+{% block content %}
+	{% for post in object_list %} 
+		
+		<h5>High Temperature is: {{ post.highTemp }}</h5>
+
+	{% endfor %}
+{% endblock %}
